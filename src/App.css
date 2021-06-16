@@ -1,0 +1,111 @@
+*{
+    margin: 0px; 
+}
+
+
+
+.navbar{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dropbox-logo{
+    margin-right: 400px;
+}
+.search{
+    width: 520px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: row;
+    margin-right: 350px;
+}
+.search-logo{
+    margin: 10px;
+}
+ 
+.search-input{
+    width: 450px;     
+    background-color: whitesmoke;
+    text-decoration: none; 
+    
+}
+
+
+
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+}
+.left-section{
+    height: 100vh;
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; 
+    color: rgb(73, 104, 190);
+    background-color: rgb(24, 24, 102);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; 
+    font-weight: 500;
+    border-top-right-radius: 70px;
+}
+
+.left-section-content{
+    margin-top: 80px;
+    margin-left: 80px;
+    font-style: normal;
+    cursor: pointer;
+}
+.left-heading1:hover , .left-heading2:hover, .left-heading3:hover, .left-heading4:hover{
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.4s ease-out;
+}
+
+.centre-section{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.home-heading{
+    font-size: 60px;
+    font-family: "poppins";
+    font-weight: 1000; 
+}
+.centre-home-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.recent-folder:hover, .recent-music:hover, .recent-album:hover{
+    cursor: pointer;
+    color: lightseagreen;
+    background-color:lightcyan;
+    transition: all 0.4s ease-out;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 10%), 0 4px 20px rgb(0 0 0 / 30%);
+}
+
+
+
+
+
+
+
+
+
+.right-section{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+
+
+
+
+
