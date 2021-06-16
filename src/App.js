@@ -24,7 +24,7 @@ function App() {
         </div>
         <div className="search">
           <div className="search-logo">
-            <box-icon name='search' color="black" color="grey" size="30px" />
+            <box-icon name='search' color="grey" size="30px" ></box-icon>
           </div>
           <TextField
             id="standard-basic"
@@ -50,7 +50,7 @@ function App() {
             <p className="left-heading4">Showcase</p>
           </div>
 
-          <img src={img3} style={{width:"200px", height:"150px",marginTop:"250px",marginLeft:"50px",boxShadow:" 0 1px 4px white, 0 4px 20px rgb(0 0 0 / 50%)" }}></img>
+          <img src={img3} style={{width:"200px", height:"150px",marginTop:"250px",marginLeft:"50px",boxShadow:" 0 1px 4px white, 0 4px 20px rgb(0 0 0 / 50%)" }} alt=""></img>
           <div style={{ color: "white", marginTop: "10px",marginLeft:"100px", fontFamily:"poppins" }} >
               <h3 >Some Text</h3>
               </div>
@@ -60,7 +60,7 @@ function App() {
         <div className="centre-section">
           <div className="home-heading">Home</div>
           <div className="centre-home-content">
-            <img src={img1} style={{ marginTop: "30px", height: "215px", width: "220px",boxShadow:" 0 1px 4px rgb(0 0 0 / 10%), 0 4px 20px rgb(0 0 0 / 50%)" }}></img>
+            <img src={img1} style={{ marginTop: "30px", height: "215px", width: "220px",boxShadow:" 0 1px 4px rgb(0 0 0 / 10%), 0 4px 20px rgb(0 0 0 / 50%)" }} alt=""></img>
             <div style={{ display: "flex", flexDirection: 'column', color: "black", margin: "50px", fontFamily: "sans-serif" }} >
               <h2 >Project</h2>
               <p style={{ color: "gray", marginTop: "10px", width: "350px" }}>This is a Selection Task for Full Stack Internship. Made by Ashwin Jagarwal. </p><br />
@@ -115,14 +115,14 @@ function App() {
 
 
         <div className="right-section">
-          <img src={img2} style={{ height: "150px", width: "150px", marginLeft: "40px", marginBottom: "50px", marginTop: "100px",boxShadow:" 0 1px 4px rgb(0 0 0 / 10%), 0 4px 20px rgb(0 0 0 / 40%)"  }} />
+          <img src={img2} style={{ height: "150px", width: "150px", marginLeft: "40px", marginBottom: "50px", marginTop: "100px",boxShadow:" 0 1px 4px rgb(0 0 0 / 10%), 0 4px 20px rgb(0 0 0 / 40%)"  }} alt=""/>
           <div style={{ color: "black", fontFamily: "sans-serif", marginLeft: "80px" }} >
             <h2 >Some text</h2>
             <p style={{ color: "gray", marginTop: "10px" }}>Some more Sample. </p><br />
 
 
           </div>
-          <img src={img4} style={{ marginLeft: "80px" }} /><br />
+          <img src={img4} style={{ marginLeft: "80px" }} alt=""/><br />
           <div style={{
             display: "flex",
             flexDirection: "row",
